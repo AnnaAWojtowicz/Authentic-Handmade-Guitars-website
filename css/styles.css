@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'BootsAndSpurs';
+    src: url('../fonts/BootsAndSpurs.ttf') format('truetype');
+}
+
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo, h1 {
+    font-family: 'BootsAndSpurs';
 }
 
 a {
@@ -15,6 +25,7 @@ nav {
     background-color: black;
     text: white;
 }
+
 main {
 margin: 8px;
 padding-top: 150px;
@@ -24,7 +35,6 @@ footer {
     background-color: black;
     color: white;
     padding: 20px;
-
 }
 
 .view {
@@ -49,3 +59,4 @@ footer {
 .background-item {
     background-color: lightgrey;
 }
+
