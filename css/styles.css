@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'BootsAndSpurs';
-    src: url('../fonts/BootsAndSpurs.ttf') format('truetype');
+    src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
 }
 
 body {
@@ -8,8 +8,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.logo, h1 {
-    font-family: 'BootsAndSpurs';
+.logo, h1, h2 {
+    font-family: 'BootsAndSpurs', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product-list h2 {
+    font-family: 'Roboto';
 }
 
 a {
