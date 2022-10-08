@@ -1,12 +1,51 @@
+body {
+    margin: 0;
+}
 
+a {
+    color: white;
+}
 
 nav {
     position: fixed;
     top: 0px;
+    padding: 20px;
     height: 120px;
     width: 100%;
-    background-color: white;
+    background-color: black;
+    text: white;
 }
 main {
-margin-top: 150px;
+margin: 8px;
+padding-top: 150px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+.view {
+    background-color: red;
+    border: 1px;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.on-sale {
+    background-color: green;
+}
+
+#reviews {
+    background-color: lightgrey;
+}
+
+.background-item {
+    background-color: lightgrey;
 }
