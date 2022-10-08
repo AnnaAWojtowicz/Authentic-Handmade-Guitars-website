@@ -64,3 +64,21 @@ footer {
     background-color: lightgrey;
 }
 
+.home-header {
+    background-image: url("../images/home-header.jpg");
+    min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.our-guitars-are {
+    border-radius: 40px;
+    max-width: 200px;
+    float: right;
+}
+
+.round-pic {
+    border-radius: 50%;
+}
