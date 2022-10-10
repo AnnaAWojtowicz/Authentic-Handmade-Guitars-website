@@ -39,6 +39,8 @@ footer {
     background-color: black;
     color: white;
     padding: 20px;
+    position: fixed; bottom: 0px;
+    width: 100%;
 }
 
 .view {
@@ -81,4 +83,9 @@ footer {
 
 .round-pic {
     border-radius: 50%;
+}
+
+input, select, textarea {
+    border: 1px solid brown;
+    border-radius: 5px;
 }
