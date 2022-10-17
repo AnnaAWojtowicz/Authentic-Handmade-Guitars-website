@@ -6,37 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="contact info" />
     <link href="./css/styles.css" rel="stylesheet" />
+    <link href="./css/contact.css" rel="stylesheet" />
     <title>Contact</title>
   </head>
   <body>
     <header></header>
     <nav>
-      <p><a href="index.html" class="logo">Guitar Kings</a></p>
-      <section class="nav-elements">
-        <a href="index.html">Home</a>
+      <div class="navigation">
+        <a href="index.html" class="logo">Guitar Kings</a>
+        <a href="index.html" class="active">Home</a>
         <a href="guitars.html">Guitars</a>
-        <a href="contact.html" class="active">Contact</a>
-      </section>
+        <a href="contact.html">Contact</a>
+      </div>
     </nav>
-    <main>
+    <main class="center">
       <h1>Contact Us</h1>
       <form action="form-success.php" method="POST">
-        <label for="Full-name">Fullname:</label>
-        <input type="text" id="Full-name" name="name" />
-        <label for="Email">Email:</label>
-        <input type="text" id="Email" name="email" />
-        <label for="Choose-Guitar">Choose Guitar</label>
-        <select id="Choose-Guitar" name="Choose-Guitar">
-          <option value="Adirondack-red-one">Adirondack-red1</option>
-          <option value="Adirondack-red-two">Adirondack-red2</option>
-          <option value="Adirondack-red-three">Adirondack-red3</option>
-          <option value="Adirondack-red-four">Adirondack-red4</option>
-        </select>
-        <label for="email-updates">Sign up for email updates</label>
-        <input type="checkbox" id="email-updates" name="email-updates" />
-        <label for="message">Message:</label>
-        <textarea id="message" rows="5" cols="30" name="message"></textarea>
-        <input type="submit" value="Submit Now" class="view" />
+        <section class="container">
+          <section class="container__column"> /* kaos starter her */
+            <div class="container__column">
+            <label for="Full-name">Fullname:</label>
+            <input type="text" id="Full-name" name="name" />
+          </div>
+          <div class="container__column">
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="email" />
+          </div>
+          <section class="container__column">
+            <label for="Choose-Guitar">Choose Guitar</label>
+            <select id="Choose-Guitar" name="Choose-Guitar">
+              <option value="Adirondack-red-one">Adirondack-red1</option>
+              <option value="Adirondack-red-two">Adirondack-red2</option>
+              <option value="Adirondack-red-three">Adirondack-red3</option>
+              <option value="Adirondack-red-four">Adirondack-red4</option>
+            </select>
+          </section>
+          <div class="container__column">
+            <section class="container">
+            <input type="checkbox" id="email-updates" name="email-updates" />
+            <label for="email-updates">Sign up for email updates</label>
+          </div>
+        
+          </section>
+          <section class="container__column">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </section>
+        </section>
+        <input type="submit" value="Submit" class="view_1" />
       </form>
     </main>
     <footer>Copywright &copy;</footer>

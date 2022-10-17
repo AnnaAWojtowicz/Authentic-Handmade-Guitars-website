@@ -1,0 +1,29 @@
+
+.layout_guitars {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.layout_guitars > * {
+    flex: 1;
+}
+
+.ikea_pute {
+width: 100%;
+}
+
+.prod {
+    width: 100%;
+    }
+
+.small_pic {
+display: flex;
+justify-content: space-between;
+gap: 10px;
+margin-top: 5px;
+}
+
+.details {
+    padding: 0px 30px;
+}

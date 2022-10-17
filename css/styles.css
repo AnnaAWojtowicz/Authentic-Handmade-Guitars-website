@@ -26,19 +26,21 @@ nav {
   position: fixed;
   top: 0px;
   padding: 20px;
-  height: 80px;
+  height: auto;
   width: 100%;
   background-color: black;
   text: white;
   z-index: 2;
 }
 
-nav {
-  display: inline-block;
-  padding: 10px;
+.naviagtion {
+    display: flex;
+    align-items: center;
+  
 }
 
-nav a {
+
+.logo, nav a {
   text-decoration: none;
   padding: 20px;
 }
@@ -46,6 +48,7 @@ nav a {
 .active {
   text-decoration: underline;
 }
+
 
 main {
   margin: 8px;
@@ -68,11 +71,13 @@ footer {
   color: white;
   padding: 10px 70px;
   text-align: center;
-  display: inline-block;
+  display: block;
   border-radius: 5px;
   text-transform: uppercase;
   font-size: 1em;
   text-decoration: none;
+  width: 76.148px;
+  margin: auto;
 }
 
 .on-sale {
@@ -84,8 +89,47 @@ footer {
   font-size: 0.8em;
 }
 
+
+.our_guitars_are, .reviews_1_2 {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+
+.our_guitars_are > *, .reviews_1_2 > * {
+    flex: 1;
+}
+
+.our_guitars_are_pic {
+  border-radius: 40px;
+  width: 100%;
+}
+
+
 #reviews {
   background-color: lightgrey;
+  padding: 50px;
+}
+
+#reviews h2 {
+    text-align: center;
+}
+
+.reviews_name {
+    display: block;
+}
+
+.round-pic {
+    border-radius: 50%;
+    max-width: 70px;
+    max-height: 70px;
+float: right;
+
+  }
+
+.reviews_1_2 div {
+    margin: 50px;
 }
 
 .background-item {
@@ -107,20 +151,10 @@ footer {
     position: absolute;
     text-align: center;
     padding-left: 10%;
-    padding-top: 6%;
+    padding-top: 10%;
     z-index: 1;
 }
 
-
-.our-guitars-are {
-  border-radius: 40px;
-  max-width: 200px;
-  float: right;
-}
-
-.round-pic {
-  border-radius: 50%;
-}
 
 input,
 select,
